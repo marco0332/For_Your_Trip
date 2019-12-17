@@ -3,8 +3,15 @@ package com.forb.backend.model.dto;
 import java.io.Serializable;
 
 public class User implements Serializable {
-    String id, name, imgUrl, gitAddress, gitId;
-    String level, stamp, classProgress;
+	
+	String id;
+	String name;
+	String imgUrl;
+	String gitAddress;
+	String gitId;
+	String level;
+	String stamp;
+	String classProgress;
     double testResult;
     
     public User() {
@@ -103,10 +110,5 @@ public class User implements Serializable {
 				+ gitId + ", level=" + level + ", stamp=" + stamp + ", classProgress=" + classProgress + ", testResult="
 				+ testResult + "]";
 	}
-
-    
-
-
-
 
 }
