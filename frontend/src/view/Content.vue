@@ -1,18 +1,18 @@
 <template>
     <div class='box'>
         <div class='header'>
-            
+            <b>Header</b>
         </div>
         <div class='wrap_content'>
             <div id='classNavigation'>
-                <b>classNavigation</b>
+                <b>ClassNavigation</b>
             </div>
             <div class='contents'>
-                <b>contents</b>
+                <b>Contents</b>
             </div>
         </div>
         <div class='footer'>
-            
+            <b>Footer</b>
         </div>
     </div>
 </template>
@@ -27,30 +27,35 @@ var html = document.documentElement;
 
 var height = body.scrollHeight;
 
-$(window).scroll(
+// $(window).scroll(
 
-);
+// );
 
 </script>
 
 <style scopped>
+    b {
+        font-size: 2em;
+    }
     .header {
         height: 300px;
         border: 2px dash darksalmon;
+        background-color: yellowgreen;
+        margin-bottom: 50px;
     }
     .wrap_content {
         overflow: hidden;
         border: 1px solid darkcyan;
         width: 65%;
-        min-width: 1000px;
+        min-width: 1200px;
         margin: 0 auto;
     }
     #classNavigation {
         border: 1px solid rosybrown;
         float: left;
-        width: 250px;
+        width: 300px;
         /* min-width: 250px; */
-        height: 300px;
+        height: 500px;
         position: fixed;
     }
     .contents {
