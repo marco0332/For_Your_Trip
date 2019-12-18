@@ -9,15 +9,17 @@
       <div class='curriculum'>
         <h1>curriculum</h1>
         <div class='list'>
-          <h5>Frontend</h5>
+          <h4>필수 커리큘럼</h4>
           <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>Javascript</li>
+            <li>HTML5 - CSS3 - Javascript - MySQL</li>
+            <li>Java</li>
+            <li></li>
           </ul>
-          <h5>Backend</h5>
+          <h4>선택 커리큘럼</h4>
           <ul>
-            <li>MySQL</li>
+            <li>Spring</li>
+            <li>Vue.js</li>
+            <li>React</li>
           </ul>
         </div>
       </div>
@@ -33,7 +35,7 @@ export default {
 <style scoped>
     .roadmap {
         width: 100%;
-        height: 800px;
+        height: 600px;
         margin-top: 20px;
         margin-bottom: 20px;
         padding-top: 20px;
@@ -53,7 +55,7 @@ export default {
     .roadmap_contents {
       margin:auto 20px;
       background-color:azure;
-      height:90%;
+      height:80%;
     }
 
 </style>
