@@ -69,8 +69,7 @@ var height = body.scrollHeight;
         height: 200px;
         background-color: bisque;
         margin-top: 40px;
-    }
-    
+    }    
 
     /* .wrap_content {
         overflow: hidden;

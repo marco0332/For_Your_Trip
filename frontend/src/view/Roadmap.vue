@@ -1,5 +1,9 @@
 <template>
   <div>
+      <div class='header'>
+        <b>Header</b>
+      </div>
+
       <div class='roadmap'>
         <h1>roadmap</h1>
         <div class='roadmap_contents'>
@@ -23,6 +27,10 @@
           </ul>
         </div>
       </div>
+
+      <div class='footer'>
+            <b>Footer</b>
+        </div>
   </div>
 </template>
 
@@ -32,10 +40,17 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scopped>
+    .header {
+        height: 300px;
+        border: 2px dash darksalmon;
+        background-color: yellowgreen;
+        margin-bottom: 50px;
+    }
     .roadmap {
-        width: 100%;
+        width: 80%;
         height: 600px;
+        margin: 0 auto;
         margin-top: 20px;
         margin-bottom: 20px;
         padding-top: 20px;
@@ -43,9 +58,9 @@ export default {
         background-color:#555555
     }
     .curriculum {
-        width: 100%;
+        width: 80%;
         height: 500px;
-        margin: 20px 0 20px 0;
+        margin: 0 auto;
         padding: 20px;
         background-color: cornflowerblue;
     }
@@ -56,6 +71,12 @@ export default {
       margin:auto 20px;
       background-color:azure;
       height:80%;
+    }
+    
+    .footer {
+        height: 200px;
+        background-color: bisque;
+        margin-top: 40px;
     }
 
 </style>
