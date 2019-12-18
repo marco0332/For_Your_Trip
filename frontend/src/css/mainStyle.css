@@ -10,12 +10,22 @@
     color: #414b4d!important;
 }
 
+.blueFontColor {
+    color: #4294e0!important;
+}
+
+.brownFontColor {
+    color: #864e18!important;
+}
+
 .navBackgroundColor {
-    background-color: #fff3e9!important;
+    /* background-color: #fff3e9!important; */
+    background: url('../assets/background.png') repeat;
 }
 
 .mainBackgroundColor {
     background-color: #eec40f!important;
+    /* background-color: transparent; */
 }
 
 @font-face {
