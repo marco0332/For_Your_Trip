@@ -72,7 +72,6 @@ export default {
       background-color:azure;
       height:80%;
     }
-    
     .footer {
         height: 200px;
         background-color: bisque;
