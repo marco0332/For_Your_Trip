@@ -1,7 +1,7 @@
 <template>
     <div id='home'>
-        <h1>This is Home</h1>
-        <div id='content'>This is Content</div>
+        <h1>Open_Programming_School</h1>
+        <div class='content'>This is Website for Beginner</div>
     </div>
 </template>
 
@@ -12,5 +12,10 @@ export default {
 </script>
 
 <style scopped>
+    .content {
+        height: 500px;
+        /* background-color: cadetblue; */
+        padding: 20px;
+    }
 
 </style>
