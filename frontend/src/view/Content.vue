@@ -69,7 +69,7 @@ var height = body.scrollHeight;
         height: 200px;
         background-color: bisque;
         margin-top: 40px;
-    }    
+    }
 
     /* .wrap_content {
         overflow: hidden;
@@ -78,7 +78,7 @@ var height = body.scrollHeight;
         margin-top: 50px;
         margin-bottom: 50px;
         display:table;
-        // position: static; 
+        //position: static;
         text-align: left;
         width: 65%;
         min-width: 1400px;
