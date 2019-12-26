@@ -1,8 +1,5 @@
 <template>
     <div class='box'>
-        <div class='header'>
-            <b>Header</b>
-        </div>
         <div class='wrap_content'>
             <div id='classNavigation'>
                 <b>ClassNavigation</b>
