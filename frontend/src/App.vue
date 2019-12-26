@@ -2,16 +2,19 @@
   <div id="app">
     <Nav />
     <router-view id="routerView" />
+    <Footer />
   </div>
 </template>
 
 <script>
 import Nav from './components/Nav'
+import Footer from './components/Footer'
 
 export default {
   name: 'App',
   components: {
-    Nav
+    Nav,
+    Footer
   }
 }
 </script>
@@ -30,5 +33,6 @@ export default {
 
 #routerView {
   margin-top: 64px;
+  min-height: calc(100vh - 64px);
 }
 </style>
