@@ -33,12 +33,6 @@ var height = body.scrollHeight;
     b {
         font-size: 2em;
     }
-    .header {
-        height: 300px;
-        border: 2px dash darksalmon;
-        background-color: yellowgreen;
-        margin-bottom: 50px;
-    }
     .wrap_content {
         overflow: hidden;
         border: 1px solid darkcyan;

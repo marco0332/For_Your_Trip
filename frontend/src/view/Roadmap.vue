@@ -1,9 +1,5 @@
 <template>
   <div>
-      <div class='header'>
-        <b>Header</b>
-      </div>
-
       <!-- Roadmap -->
       <div class='roadmap'>
         <h1>roadmap</h1>
@@ -82,12 +78,6 @@ export default {
 
     .theme--light.application {
       background-color: transparent !important;
-    }
-    .header {
-        height: 300px;
-        border: 2px dash darksalmon;
-        background-color: yellowgreen;
-        margin-bottom: 50px;
     }
     .roadmap {
         width: 80%;
