@@ -33,6 +33,9 @@ var height = body.scrollHeight;
 
 </script>
 
+<<<<<<< HEAD
+<style scoped>
+=======
 <style scopped>
     b {
         font-size: 2em;
@@ -112,5 +115,6 @@ var height = body.scrollHeight;
         background-color: beige;
         // position: static;
     } */
+>>>>>>> 0692db03d67dc3d21a6f6648162253a9ebdd8377
 
 </style>
