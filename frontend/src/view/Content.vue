@@ -1,7 +1,6 @@
 <template>
     <div>
-        
-
+        <h1>this is Content.vue</h1>
     </div>
 </template>
 
@@ -11,6 +10,6 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
 </style>

@@ -7,13 +7,10 @@
 
 <script>
 export default {
-    
+  name: 'home'
 }
 </script>
 
 <style scopped>
-    #content {
-        
-    }
 
 </style>
