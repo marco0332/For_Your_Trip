@@ -1,0 +1,36 @@
+.mainFontColor {
+    color: #b41515!important;
+}
+
+.subFontColor {
+    color: #eec40f!important;
+}
+
+.subNavColor {
+    color: #414b4d!important;
+}
+
+.blueFontColor {
+    color: #4294e0!important;
+}
+
+.brownFontColor {
+    color: #864e18!important;
+}
+
+.navBackgroundColor {
+    /* background-color: #fff3e9!important; */
+    background: url('../assets/background.png') repeat;
+}
+
+.mainBackgroundColor {
+    background-color: #eec40f!important;
+    /* background-color: transparent; */
+}
+
+@font-face {
+    font-family: 'slowFont';
+    src: url('../assets/slowFont.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+         url('../assets/slowfont-webfont.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('../assets/slowfont-webfont.woff2') format('woff2');
+}
