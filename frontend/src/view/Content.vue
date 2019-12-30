@@ -8,9 +8,6 @@
                 <b>Contents</b>
             </div>
         </div>
-        <div class='footer'>
-            <b>Footer</b>
-        </div>
     </div>
 </template>
 
@@ -19,16 +16,8 @@
 export default {
 
 }
-var body = document.body
-var html = document.documentElement;
-
-var height = body.scrollHeight;
-
-// $(window).scroll(
-
-// );
-
 </script>
+
 <style scopped>
     b {
         font-size: 2em;
@@ -54,52 +43,4 @@ var height = body.scrollHeight;
         width: 75%;
         height: 1000px;
     }
-
-    .footer {
-        height: 200px;
-        background-color: bisque;
-        margin-top: 40px;
-    }
-
-    /* .wrap_content {
-        overflow: hidden;
-        border: 1px solid darkcyan;
-        margin: 0 auto;
-        margin-top: 50px;
-        margin-bottom: 50px;
-        display:table;
-        //position: static;
-        text-align: left;
-        width: 65%;
-        min-width: 1400px;
-        // flex-wrap: wrap;
-    }
-
-    .classNavigation {
-        border: 1px solid black;
-        position: fixed;
-        display: table-row;
-        // display: inline-block;
-        margin: 30px 30px 0px 0px;
-        width: 280px;
-        height: 500px;
-    }
-    .contents {
-        border: 1px solid burlywood;
-        position: absolute;
-        display: table-row;
-        // display: inline-block;
-        margin-left: 310px;
-        margin-top: 30px;
-        width: 70%;
-        min-width: 750px;
-        height: 1000px;
-    }
-
-    .footer {
-        width: 100%;
-        height: 300px;
-        background-color: beige;
-        // position: static;
-    } */
 </style>

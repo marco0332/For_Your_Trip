@@ -41,10 +41,6 @@
         <v-btn @click="next">next</v-btn>
       </div>
     </div>
-
-    <div class='footer'>
-        <b>Footer</b>
-    </div>
   </div>
 </template>
 
@@ -104,10 +100,5 @@ export default {
       margin-top: 30px;
       background-color:azure;
       height:80%;
-    }
-    .footer {
-        height: 200px;
-        background-color: bisque;
-        margin-top: 40px;
     }
 </style>
